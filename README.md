@@ -15,6 +15,13 @@ Requirements:
 • Allow the user to pass optional arguments, such as:
 • -t to specify the disk usage warning threshold.
 • -f to set the output file name.
-![Screenshot from 2025-01-31 01-37-42](https://github.com/user-attachments/assets/b8090085-7216-417b-ba0f-962dcd28f2c4)
-![Screenshot from 2025-01-31 01-37-49](https://github.com/user-attachments/assets/24c78e46-989c-479e-8ac9-42bab253f332)
+ HEAD
+
+run by command ./monitor.sh then 
+to see the report file by command cat system_monitor.log 
+![image](https://github.com/user-attachments/assets/daf4f30b-8527-47c3-8ea0-b09eb2c60809)
+the emai sent in case of exceeding threshold
+![image](https://github.com/user-attachments/assets/8dafff78-f9ab-40bd-8c19-46daa3ec5e55)
+
+ 6adc2a7 (Update README.md)
 
