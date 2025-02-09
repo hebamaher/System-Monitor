@@ -1,0 +1,21 @@
+System Resource Report - Sun  9 Feb 18:43:54 EET 2025
+----------------------------------
+Checking Disk Usage..
+ Filesystem Size Used
+ /dev/sda9 43G 32G%
+Warning: Disk usage is at 77% (threshold is 70%)
+----------------------------------
+Current CPU Usage: 21.3%
+-----------------------------------
+Memory:
+ total used free
+ 7.7Gi 3.3Gi 1.5Gi
+-----------------------------------
+Top 5 Memory-Consuming Processes:
+PID USER %MEM COMMAND
+PID    USER       %MEM  COMMAND
+4279   jenkins    11.2  /usr/bin/java
+11751  heba       6.7   /snap/firefox/5701/usr/lib/firefox/firefox
+10919  heba       6.2   /snap/firefox/5701/usr/lib/firefox/firefox
+14280  heba       5.9   /snap/firefox/5701/usr/lib/firefox/firefox
+45645  heba       3.9   /snap/firefox/5701/usr/lib/firefox/firefox

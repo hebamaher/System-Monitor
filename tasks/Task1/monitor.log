@@ -1,0 +1,594 @@
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 33.1%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.5Gi       2.7Gi       488Mi       2.4Gi       4.4Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 23.1  6.7 7253612 544076 ?      Sl   02:11   1:43 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 17.3  5.7 3990544 460216 ?      Sl   02:11   1:20 /usr/lib/firefox/firefox -new-window
+heba       72120  8.8  3.5 2802820 284092 ?      Sl   02:11   0:39 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.4  3.1 4780928 255972 ?      Ssl  Jan30  29:20 /usr/bin/gnome-shell
+heba        5876  3.3  3.0 1214683824 245528 ?   Sl   Jan30   9:46 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 44.5%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.5Gi       2.7Gi       495Mi       2.4Gi       4.4Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 30.3  6.5 7257272 529280 ?      Sl   02:11   2:33 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 20.1  5.8 3990644 473160 ?      Sl   02:11   1:45 /usr/lib/firefox/firefox -new-window
+heba       72120  8.3  3.5 2802820 285672 ?      Sl   02:11   0:42 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.4  3.1 4781004 256000 ?      Ssl  Jan30  29:25 /usr/bin/gnome-shell
+heba        5876  3.3  3.0 1214683824 245872 ?   Sl   Jan30   9:48 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 28.3%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.6Gi       2.7Gi       488Mi       2.4Gi       4.3Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 35.9  6.9 7258604 562180 ?      Sl   02:11   3:23 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 21.9  5.8 3987756 467156 ?      Sl   02:11   2:08 /usr/lib/firefox/firefox -new-window
+heba       72120  8.2  3.5 2802820 283124 ?      Sl   02:11   0:47 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.3  3.1 4780812 256016 ?      Ssl  Jan30  29:30 /usr/bin/gnome-shell
+heba        5876  3.3  3.0 1214683824 247708 ?   Sl   Jan30   9:50 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 33.9%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.7Gi       2.4Gi       554Mi       2.5Gi       4.1Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 40.9  7.0 7261776 565972 ?      Sl   02:11   4:17 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 24.5  5.8 4070248 469176 ?      Sl   02:11   2:38 /usr/lib/firefox/firefox -new-window
+heba       72233  0.6  3.9 2835280 313944 ?      Sl   02:11   0:03 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37416 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {13478784-1011-4758-997c-56e201b2616d} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 9 tab
+heba       72120  8.1  3.5 2802820 286676 ?      Sl   02:11   0:51 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.4  3.1 4782040 256008 ?      Ssl  Jan30  29:37 /usr/bin/gnome-shell
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 25.8%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.6Gi       2.7Gi       474Mi       2.4Gi       4.4Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 44.9  6.8 7253160 548040 ?      Sl   02:11   5:08 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 25.6  5.7 3989896 464612 ?      Sl   02:11   3:01 /usr/lib/firefox/firefox -new-window
+heba       72120  7.7  3.5 2802816 287152 ?      Sl   02:11   0:53 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.4  3.1 4780944 255976 ?      Ssl  Jan30  29:42 /usr/bin/gnome-shell
+heba        5876  3.3  2.9 1214683824 240928 ?   Sl   Jan30   9:55 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 26.6%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.6Gi       2.7Gi       474Mi       2.4Gi       4.4Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 48.0  7.0 7256248 563232 ?      Sl   02:11   5:59 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 26.4  5.7 3989692 464612 ?      Sl   02:11   3:21 /usr/lib/firefox/firefox -new-window
+heba       72120  7.2  3.5 2802816 286800 ?      Sl   02:11   0:53 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.3  3.1 4780944 255996 ?      Ssl  Jan30  29:47 /usr/bin/gnome-shell
+heba        5876  3.3  2.9 1214683824 241004 ?   Sl   Jan30   9:57 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 33.3%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.6Gi       2.6Gi       530Mi       2.5Gi       4.3Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 50.6  7.3 7257256 587364 ?      Sl   02:11   6:49 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 27.2  5.7 4044036 463604 ?      Sl   02:11   3:44 /usr/lib/firefox/firefox -new-window
+heba       72120  6.9  3.5 2802816 287152 ?      Sl   02:11   0:56 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.3  3.1 4782088 255976 ?      Ssl  Jan30  29:52 /usr/bin/gnome-shell
+heba        5876  3.3  3.0 1214683824 241076 ?   Sl   Jan30   9:59 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 33.3%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.7Gi       2.5Gi       477Mi       2.4Gi       4.2Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 52.6  7.3 7255224 589372 ?      Sl   02:11   7:36 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 28.2  5.9 3991716 475108 ?      Sl   02:11   4:09 /usr/lib/firefox/firefox -new-window
+heba       72120  6.7  3.5 2802816 286392 ?      Sl   02:11   0:58 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.3  3.1 4780956 255976 ?      Ssl  Jan30  29:58 /usr/bin/gnome-shell
+heba        5876  3.3  3.0 1214683824 241388 ?   Sl   Jan30  10:01 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+Disk usage is under control: 75%
+Partition: /dev Usage: 0%
+Partition: /run Usage: 1%
+Partition: / Usage: 75%
+Partition: /dev/shm Usage: 1%
+Partition: /run/lock Usage: 1%
+Partition: /sys/fs/cgroup Usage: 0%
+Partition: /snap/bare/5 Usage: 100%
+WARNING: Partition /snap/bare/5 is above 80% usage!
+Partition: /snap/code/172 Usage: 100%
+WARNING: Partition /snap/code/172 is above 80% usage!
+Partition: /snap/code/176 Usage: 100%
+WARNING: Partition /snap/code/176 is above 80% usage!
+Partition: /snap/core18/2829 Usage: 100%
+WARNING: Partition /snap/core18/2829 is above 80% usage!
+Partition: /snap/core18/2846 Usage: 100%
+WARNING: Partition /snap/core18/2846 is above 80% usage!
+Partition: /snap/core20/2434 Usage: 100%
+WARNING: Partition /snap/core20/2434 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/36 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/36 is above 80% usage!
+Partition: /snap/core22/1663 Usage: 100%
+WARNING: Partition /snap/core22/1663 is above 80% usage!
+Partition: /snap/core22/1621 Usage: 100%
+WARNING: Partition /snap/core22/1621 is above 80% usage!
+Partition: /snap/gnome-3-34-1804/93 Usage: 100%
+WARNING: Partition /snap/gnome-3-34-1804/93 is above 80% usage!
+Partition: /snap/core20/2379 Usage: 100%
+WARNING: Partition /snap/core20/2379 is above 80% usage!
+Partition: /snap/gtk-common-themes/1535 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1535 is above 80% usage!
+Partition: /snap/snap-store/1216 Usage: 100%
+WARNING: Partition /snap/snap-store/1216 is above 80% usage!
+Partition: /snap/snap-store/1113 Usage: 100%
+WARNING: Partition /snap/snap-store/1113 is above 80% usage!
+Partition: /snap/snapd/21759 Usage: 100%
+WARNING: Partition /snap/snapd/21759 is above 80% usage!
+Partition: /snap/gtk-common-themes/1506 Usage: 100%
+WARNING: Partition /snap/gtk-common-themes/1506 is above 80% usage!
+Partition: /snap/gnome-42-2204/176 Usage: 100%
+WARNING: Partition /snap/gnome-42-2204/176 is above 80% usage!
+Partition: /snap/whatsapp-for-linux/59 Usage: 100%
+WARNING: Partition /snap/whatsapp-for-linux/59 is above 80% usage!
+Partition: /boot/efi Usage: 1%
+Partition: /run/user/125 Usage: 1%
+Partition: /run/user/1000 Usage: 1%
+Partition: /media/heba/Personal Usage: 5%
+Partition: /media/heba/96A8F52EA8F50E0D Usage: 92%
+WARNING: Partition /media/heba/96A8F52EA8F50E0D is above 80% usage!
+Partition: /snap/discord/225 Usage: 100%
+WARNING: Partition /snap/discord/225 is above 80% usage!
+Partition: /snap/snapd/23545 Usage: 100%
+WARNING: Partition /snap/snapd/23545 is above 80% usage!
+----------------------------------
+Current CPU Usage: 30.1%
+-----------------------------------
+Memory usage:               total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       2.6Gi       2.5Gi       542Mi       2.5Gi       4.2Gi
+Swap:         2.0Gi       150Mi       1.9Gi
+-----------------------------------
+Memory Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+heba       72125 54.5  7.7 7257696 620964 ?      Sl   02:11   8:26 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d546b3fd-7005-4acc-8af3-e8279e52fa19} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 6 tab
+heba       71880 28.2  5.9 4058280 474204 ?      Sl   02:11   4:26 /usr/lib/firefox/firefox -new-window
+heba       72120  6.3  3.5 2802816 286944 ?      Sl   02:11   0:59 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36865 -prefMapHandle 1 -prefMapSize 260996 -jsInitHandle 2 -jsInitLen 254356 -parentBuildID 20241230151726 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d68cec8-5db8-4534-a0f9-ea055ec21985} -parentPid 71880 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+heba        1808  9.3  3.1 4780948 256140 ?      Ssl  Jan30  30:02 /usr/bin/gnome-shell
+heba        5876  3.3  3.0 1214683824 241568 ?   Sl   Jan30  10:03 /snap/discord/225/usr/share/discord/Discord --type=renderer --crashpad-handler-pid=5751 --enable-crash-reporter=687e9758-eb46-4af0-a7c1-1b531bbd5f6d,no_channel --user-data-dir=/home/heba/snap/discord/225/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/snap/discord/225/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1738263668275822 --launch-time-ticks=1390000719 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3274059532108725014,7630978476318126725,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
